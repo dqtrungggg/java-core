@@ -3,16 +3,16 @@ package com.example.helloworld;
 import java.util.Objects;
 import java.util.Scanner;
 
-public class person {
+public class Person {
     private String name;
     private int age;
     private long phoneNumber;
     private int height;
 
-    public person() {
+    public Person() {
     }
 
-    public person(String ten, int tuoi, long soDienThoai, int chieuCao) {
+    public Person(String ten, int tuoi, long soDienThoai, int chieuCao) {
         this.name = ten;
         this.age = tuoi;
         this.phoneNumber = soDienThoai;
@@ -85,7 +85,7 @@ public class person {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass())
             return false;
-        person person = (person) o;
+        Person person = (Person) o;
         return age == person.age && phoneNumber == person.phoneNumber && height == person.height && name.equals(person.name);
     }
 

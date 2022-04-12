@@ -1,10 +1,10 @@
 package com.example.helloworld;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
-        person myProfile = new person("trung",12,12346,160);
-        person myProfile1 = new person("duong",15,123456,200);
-        person myProfile3 = new person();
+        Person myProfile = new Person("trung",12,12346,160);
+        Person myProfile1 = new Person("duong",15,123456,200);
+        Person myProfile3 = new Person();
         System.out.println(myProfile3);
         System.out.println("__________________________");
         /**
@@ -27,9 +27,9 @@ public class main {
         /**
          * extend...
          */
-        working wk = new working();
+        Working wk = new Working();
         wk.setGioLam(12);
-        System.out.println("Luong: "+ wk.getGioLam());
+        System.out.println("Gio Lam: "+ wk.getGioLam());
         wk.lamViec();
         wk.setPhoneNumber(-1);
         System.out.println(wk.getPhoneNumber());

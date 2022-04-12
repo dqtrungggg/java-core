@@ -1,13 +1,13 @@
 package com.example.helloworld;
 
-public class working extends person{
+public class Working extends Person {
     private String doSomeThings;
     private int gioLam;
 
-    public working() {
+    public Working() {
     }
 
-    public working(String ten, int tuoi, long soDienThoai, int chieuCao, String doSomeThings, int gioLam) {
+    public Working(String ten, int tuoi, long soDienThoai, int chieuCao, String doSomeThings, int gioLam) {
         super(ten, tuoi, soDienThoai, chieuCao);
         this.doSomeThings = doSomeThings;
         this.gioLam = gioLam;

@@ -1,9 +1,8 @@
 package com.example.helloworld;
 
-public interface interfaceTest {
+public interface InterfaceTest {
     void print();
 }
-interface interfaceTest1 {
+interface InterfaceTest1 {
     void scan();
 }
-
