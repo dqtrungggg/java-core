@@ -1,4 +1,6 @@
-package com.example.helloworld;
+package com.example.helloworld.InterFace_AbstractClass;
+
+//import com.example.helloworld.SinhVien;
 
 public class InterFace_Abstract_Main {
     public static void main(String[] args) {

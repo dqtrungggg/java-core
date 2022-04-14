@@ -1,4 +1,4 @@
-package com.example.helloworld;
+package com.example.helloworld.OOP;
 
 import java.util.Objects;
 import java.util.Scanner;
@@ -46,7 +46,7 @@ public class Person {
         if(phoneNumber > 0)
             this.phoneNumber = phoneNumber;
         else
-            System.out.println("wrong number!");
+            System.out.println("Wrong Phone Number!");
     }
 
     public int getHeigh() {

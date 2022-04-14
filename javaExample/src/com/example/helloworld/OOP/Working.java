@@ -1,4 +1,4 @@
-package com.example.helloworld;
+package com.example.helloworld.OOP;
 
 public class Working extends Person {
     private String doSomeThings;

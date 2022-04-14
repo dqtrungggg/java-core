@@ -1,4 +1,4 @@
-package com.example.helloworld;
+package com.example.helloworld.InterFace_AbstractClass;
 
 public interface InterfaceTest {
     void print();

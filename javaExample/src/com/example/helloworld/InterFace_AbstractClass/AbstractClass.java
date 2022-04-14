@@ -1,4 +1,4 @@
-package com.example.helloworld;
+package com.example.helloworld.InterFace_AbstractClass;
 
 public class AbstractClass extends AbstractClassEg {
     public AbstractClass(String hoTenSV) {

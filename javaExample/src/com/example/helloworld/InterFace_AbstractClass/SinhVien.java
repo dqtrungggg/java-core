@@ -1,8 +1,11 @@
-package com.example.helloworld;
+package com.example.helloworld.InterFace_AbstractClass;
+
+import com.example.helloworld.InterFace_AbstractClass.InterfaceTest;
+import com.example.helloworld.InterFace_AbstractClass.InterfaceTest1;
 
 import java.util.Scanner;
 
-class SinhVien implements InterfaceTest, InterfaceTest1{
+class SinhVien implements InterfaceTest, InterfaceTest1 {
     private String tenSinhVien;
     public SinhVien() {
     }
